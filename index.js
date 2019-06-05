@@ -1,4 +1,4 @@
-const apiRoot = "https://<hostname>.azurewebsites.net/api/UrlIngest?code=<funcAppKey>";
+var apiRoot = "https://csurls.azurewebsites.net/api/UrlIngest?code=j7mYn6pHpSfqoUamO9eDPC1M9okxTaVJqGiVbbWq4Fh2/nC4IiZdSg==";
 
 var app = new Vue({
 
