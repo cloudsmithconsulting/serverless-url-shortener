@@ -35,7 +35,7 @@
                 <div v-if="urls.length === 0">(no urls)</div>
                 <div v-if="urls.length">
                     <div style="max-height: 400px; overflow-y: scroll;">
-                        <p v-for="url in urls"><strong>{{url.ShortUrl}} | {{url.LongUrl}}</p>
+                        <p v-for="url in urls"><strong>http://{{url.ShortUrl}} | {{url.LongUrl}}</p>
                     </div>
                 </div>
             </p>
